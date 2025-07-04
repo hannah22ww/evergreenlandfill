@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>evergreenlandfill</title>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@300;400&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -16,6 +16,7 @@
       height: 100%;
       width: 100%;
       font-family: 'EB Garamond', serif;
+      background-color: black;
     }
 
     body {
@@ -29,24 +30,25 @@
 
     .menu {
       position: absolute;
-      bottom: 40px; /* 增加下边距 */
+      bottom: 40px;
       right: 40px;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      gap: 30px; /* 控制两个标题之间的间距，原来是10px */
+      gap: 50px; /* 更宽松的间距 */
     }
 
     .menu a {
       text-decoration: none;
-      font-size: 24px;
+      font-size: 16px; /* 更小字体 */
       color: white;
-      font-weight: 400;
+      font-weight: 300; /* 更纤细字体 */
+      letter-spacing: 0.5px;
       transition: opacity 0.3s ease;
     }
 
     .menu a:hover {
-      opacity: 0.7;
+      opacity: 0.6;
     }
   </style>
 </head>
