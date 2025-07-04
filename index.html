@@ -4,48 +4,47 @@
   <meta charset="UTF-8">
   <title>evergreenlandfill</title>
   <style>
-    * {
+    body {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-    }
-    html, body {
-      height: 100%;
-      font-family: 'Georgia', serif;
-    }
-    body {
-      background: url('./bg.jpg') no-repeat center center fixed;
+      background-image: url('images/bg.jpg');
       background-size: cover;
-      color: #fff;
+      background-position: center;
+      height: 100vh;
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      color: white;
       position: relative;
     }
+
     .site-title {
       position: absolute;
       top: 20px;
       left: 30px;
-      font-size: 16px;
+      font-size: 18px;
+      font-weight: 400;
       letter-spacing: 1px;
     }
+
     .menu {
       position: absolute;
-      bottom: 30px;
+      bottom: 40px;
       right: 40px;
       text-align: right;
     }
+
     .menu a {
       display: block;
-      margin-bottom: 10px;
-      font-size: 18px;
+      font-size: 20px;
+      color: white;
       text-decoration: none;
-      color: #fff;
       font-family: 'Georgia', serif;
       font-weight: 300;
-      opacity: 0.9;
-      transition: all 0.3s;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
     }
+
     .menu a:hover {
-      opacity: 1;
-      letter-spacing: 1px;
+      text-decoration: underline;
     }
   </style>
 </head>
