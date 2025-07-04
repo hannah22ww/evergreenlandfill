@@ -1,61 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>evergreenlandfill</title>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * {
+    html, body {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background: url('images/bg.jpg') no-repeat center center fixed;
+      height: 100%;
+      font-family: 'Playfair Display', serif;
+      background-image: url('images/bg.jpg'); /* 确保路径正确 */
       background-size: cover;
-      height: 100vh;
-      font-family: 'EB Garamond', serif;
+      background-position: center;
+      background-repeat: no-repeat;
       color: white;
-      position: relative;
     }
-
-    .site-title {
+    .title {
       position: absolute;
       top: 20px;
       left: 30px;
       font-size: 16px;
       letter-spacing: 1px;
-      font-weight: 400;
-      color: white;
     }
-
-    .menu {
+    .links {
       position: absolute;
-      bottom: 40px;
+      bottom: 30px;
       right: 40px;
       text-align: right;
     }
-
-    .menu a {
+    .links a {
       display: block;
-      font-size: 18px;
+      margin-bottom: 12px;
+      font-size: 20px;
       color: white;
       text-decoration: none;
-      margin-bottom: 8px;
-      font-weight: 300;
+      font-weight: 400;
     }
-
-    .menu a:hover {
-      opacity: 0.8;
+    .links a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="site-title">evergreenlandfill</div>
-
-  <div class="menu">
+  <div class="title">evergreenlandfill</div>
+  <div class="links">
     <a href="chemtrails.html">Chemtrails over the Country Club</a>
     <a href="letthelightin.html">Let the Light In</a>
   </div>
