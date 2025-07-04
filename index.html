@@ -3,13 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>evergreenlandfill</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      font-family: 'Georgia', serif;
+    }
+    body {
+      background: url('./bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      position: relative;
+    }
+    .site-title {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+    .menu {
+      position: absolute;
+      bottom: 30px;
+      right: 40px;
+      text-align: right;
+    }
+    .menu a {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+      text-decoration: none;
+      color: #fff;
+      font-family: 'Georgia', serif;
+      font-weight: 300;
+      opacity: 0.9;
+      transition: all 0.3s;
+    }
+    .menu a:hover {
+      opacity: 1;
+      letter-spacing: 1px;
+    }
+  </style>
 </head>
 <body>
   <div class="site-title">evergreenlandfill</div>
   <div class="menu">
-    <a href="chemtrails.html">Chemtrails over the Country Club</a><br>
-    <a href="light.html">Let the Light In</a>
+    <a href="chemtrails.html">Chemtrails over the Country Club</a>
+    <a href="letthelightin.html">Let the Light In</a>
   </div>
 </body>
 </html>
